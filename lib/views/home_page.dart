@@ -94,10 +94,12 @@ class _HomePageState extends State<HomePage> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             IconButton(
+                              color: Colors.blue,
                               icon: Icon(Icons.edit),
                               onPressed: () => onEditNote(note),
                             ),
                             IconButton(
+                              color: Colors.red,
                               icon: Icon(Icons.delete),
                               onPressed: () => onDeleteNote(note.id),
                             ),
